@@ -26,12 +26,18 @@ npm install to add the node packages
 2) npx shadcn@latest add <Item Name>
 Refer: https://ui.shadcn.com/docs/installation/next
 
-src/app/dashboard: To Redirect Based on Role(presently in switch case for convenience & later should be changed to a standard version.
+## Structure Explanation
+### src/app/dashboard: 
+To Redirect Based on Role(presently in switch case for convenience & later should be changed to a standard version.
 
-src/app/student: Layout of the student dashboard.
+### src/app/student: 
+Layout of the student dashboard.
 
-src/components/dashboard: Dashboard items like header, sidebar and content based on role are here.
+### src/components/dashboard: 
+Dashboard items like header, sidebar and content based on role are here.
 
-src/components/ui: Ui components are here
+### src/components/ui: 
+Ui components are here
 
-Main Entrance (page.tsx): Will be rendered to auth/login & auth/signup in later phase.
+### Main Entrance (page.tsx): 
+Will be rendered to auth/login & auth/signup in later phase.
